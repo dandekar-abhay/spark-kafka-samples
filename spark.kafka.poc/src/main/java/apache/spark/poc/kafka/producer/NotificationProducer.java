@@ -14,7 +14,7 @@ import apache.spark.poc.config.Configuration;
 
 public class NotificationProducer {
 	
-	private static final boolean debug = true; 
+	private static final boolean debug = false; 
 
 	public static void main(String[] argv) throws Exception {
 
@@ -43,9 +43,9 @@ public class NotificationProducer {
 			@Override
 			public void run() {
 				try {
-					
-					int randomNum = ThreadLocalRandom.current().nextInt(0, 5);
-					final String msg = randomNum + ":" + 117;
+					// int randomNum = ThreadLocalRandom.current().nextInt(0, 5);
+					int randomNum = 100;
+					final String msg = randomNum + ":" + 1;
 					producer.send(new ProducerRecord<String, String>(topicName, msg));
 					if(debug) {
 						System.out.println("Message inserted : " + msg);
@@ -56,6 +56,7 @@ public class NotificationProducer {
 				}
 			}
 		};
-		timer.schedule(task, 1000, 1 * 1 * 1000);		
+		
+		timer.schedule(task, 1000, Configuration.KAFKA_PRODUCER_FREQ_SECS * 1000);		
 	}
 }
