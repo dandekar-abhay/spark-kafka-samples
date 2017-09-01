@@ -1,4 +1,4 @@
-package apache.spark.aera.poc.kafka.producer;
+package apache.spark.poc.kafka.producer;
 
 import java.util.Properties;
 import java.util.Timer;
@@ -10,7 +10,7 @@ import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
 
-import apache.spark.aera.poc.config.Configuration;
+import apache.spark.poc.config.Configuration;
 
 public class NotificationProducer {
 	

@@ -1,11 +1,11 @@
-package apache.spark.aera.poc.temp;
+package apache.spark.poc.temp;
 
 import org.apache.spark.api.java.function.FlatMapFunction;
 import org.apache.spark.sql.*;
 import org.apache.spark.sql.streaming.StreamingQuery;
 import org.apache.spark.sql.streaming.StreamingQueryException;
 
-import apache.spark.aera.poc.config.Configuration;
+import apache.spark.poc.config.Configuration;
 
 import java.util.Arrays;
 

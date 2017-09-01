@@ -1,4 +1,4 @@
-package apache.spark.aera.poc;
+package apache.spark.poc;
 
 /**
  * Hello world!

@@ -1,4 +1,4 @@
-package apache.spark.aera.poc;
+package apache.spark.poc;
 
 import scala.Tuple2;
 
@@ -15,7 +15,7 @@ import org.apache.spark.streaming.api.java.JavaPairDStream;
 import org.apache.spark.streaming.api.java.JavaStreamingContext;
 import org.apache.spark.streaming.kafka.KafkaUtils;
 
-import apache.spark.aera.poc.config.Configuration;
+import apache.spark.poc.config.Configuration;
 
 public class SparkConsumer {
 

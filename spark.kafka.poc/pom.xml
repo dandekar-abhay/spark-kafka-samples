@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>apache.spark</groupId>
-	<artifactId>aera.poc</artifactId>
+	<artifactId>kafka.poc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>aera.poc</name>
+	<name>spark.kafka.poc</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

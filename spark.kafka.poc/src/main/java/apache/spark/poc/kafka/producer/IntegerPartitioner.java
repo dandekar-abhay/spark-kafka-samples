@@ -1,4 +1,4 @@
-package apache.spark.aera.poc.kafka.producer;
+package apache.spark.poc.kafka.producer;
 
 
 import org.apache.kafka.clients.producer.Partitioner;

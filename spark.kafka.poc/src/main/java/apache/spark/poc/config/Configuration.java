@@ -1,4 +1,4 @@
-package apache.spark.aera.poc.config;
+package apache.spark.poc.config;
 
 import java.util.HashMap;
 import java.util.Map;

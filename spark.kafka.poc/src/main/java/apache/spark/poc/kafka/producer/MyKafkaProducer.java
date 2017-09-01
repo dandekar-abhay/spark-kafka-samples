@@ -1,6 +1,6 @@
-package apache.spark.aera.poc.kafka.producer;
+package apache.spark.poc.kafka.producer;
 
-import apache.spark.aera.poc.config.Configuration;
+import apache.spark.poc.config.Configuration;
 
 public class MyKafkaProducer {
 

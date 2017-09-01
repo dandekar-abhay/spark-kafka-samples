@@ -1,4 +1,4 @@
-package apache.spark.aera.poc;
+package apache.spark.poc;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
