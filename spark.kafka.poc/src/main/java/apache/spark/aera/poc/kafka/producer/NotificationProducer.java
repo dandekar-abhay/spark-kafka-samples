@@ -45,7 +45,7 @@ public class NotificationProducer {
 				try {
 					
 					int randomNum = ThreadLocalRandom.current().nextInt(0, 5);
-					final String msg = randomNum + ":" + 114;
+					final String msg = randomNum + ":" + 117;
 					producer.send(new ProducerRecord<String, String>(topicName, msg));
 					if(debug) {
 						System.out.println("Message inserted : " + msg);
