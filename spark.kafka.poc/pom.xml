@@ -55,7 +55,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.apache.kafka</groupId>
-			<artifactId>kafka_2.11</artifactId>
+			<artifactId>kafka_2.11</artifactId>	
 			<version>0.11.0.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql-kafka-0-10_2.11 -->
